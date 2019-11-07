@@ -4,7 +4,13 @@ A python package for analyzing and visualizing molecules. For the MolSSI Best Pr
 
 Handles the primary functions
 """
+import os
+import numpy as np
+import matplotlib.pyplot as plt
 
+from mpl_toolkits.mplot3d import Axes3D
+
+%matplotlib notebook
 
 def canvas(with_attribution=True):
     """
@@ -32,14 +38,6 @@ def canvas(with_attribution=True):
 if __name__ == "__main__":
     # Do something if this file is invoked on its own
     print(canvas())
-
-import os
-import numpy as np
-import matplotlib.pyplot as plt
-
-from mpl_toolkits.mplot3d import Axes3D
-
-%matplotlib notebook
 
 def calculate_distance(rA, rB):
     # This function calculates the distance between two points given as numpy arrays.
