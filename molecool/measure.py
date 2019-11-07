@@ -22,7 +22,7 @@ def calculate_distance(pointA, pointB):
     >>> calculate_distance(r1,r2)
     3.0
     """
-    
+
     dist_vec = (pointA - pointB)
     distance = np.linalg.norm(dist_vec)
     return distance
