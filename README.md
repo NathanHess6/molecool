@@ -5,10 +5,10 @@ molecool
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/REPLACE_WITH_APPVEYOR_LINK/branch/master?svg=true)](https://ci.appveyor.com/project/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master)
 [![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master)
 
-A python package for analyzing and visualizing molecules. For the MolSSI Best Practices Workshop.
+A python package for analyzing and visualizing molecules. For the MolSSI Best Practices Workshop at the University of Pittsburgh.
 This repository is currently under development. Sorry if there are bugs. This can be developmentally installed using:
 'pip install -e .'
-in the repository directory. 
+in the repository directory.
 
 ### Copyright
 

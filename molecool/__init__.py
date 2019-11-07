@@ -5,6 +5,7 @@ A python package for analyzing and visualizing molecules. For the MolSSI Best Pr
 
 # Add imports here
 from .functions import *
+# from .functions import
 
 # Handle versioneer
 from ._version import get_versions
