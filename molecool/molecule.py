@@ -3,7 +3,7 @@ from .data import atomic_weights
 import numpy as np
 
 
-def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
+def build_bond_list(coordinates, max_bond = 1.5, min_bond = 0):
 
     # Find the bonds in a molecule (set of coordinates) based on distance criteria.
     bonds = {}
@@ -53,7 +53,8 @@ def calculate_center_of_mass(symbols, coordinates):
 
 
 def calculate_molecular_mass(symbols):
-   """Calculate the mass of a molecule.
+   """
+   Calculate the mass of a molecule.
 
    Parameters
    ----------
