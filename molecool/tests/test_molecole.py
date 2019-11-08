@@ -1,10 +1,14 @@
-def test_molecular_mass(test_molecule):
-    symbols = ['C', 'H', 'H', 'H', 'H']
+import molecool
+import numpy as np
+import pytest
+
+def test_molecular_mass():
+    symbols = ['C', 'H', 'H', 'H']
 
     calculated_mass = molecool.calculate_molecular_mass(symbols)
 
-    actual_mass = molecool.atom_data.atom_weights['C'] + molecool.atom_data.atom_weights['H'] +\
-         molecool.atom_data.atom_weights['H'] + molecool.atom_data.atom_weights['H']
+    actual_mass = molecool.data.atomic_weights['C'] + molecool.data.atomic_weights['H'] +\
+         molecool.data.atomic_weights['H'] + molecool.data.atomic_weights['H']
 
     assert actual_mass == calculated_mass
 
@@ -16,4 +20,4 @@ def test_center_of_mass():
 
     expected_center = np.array([1,1,1])
 
-    assert center_of_mass.all() == expected_center.all()
+    assert np.array_equal(center_of_mass, expected_center)
