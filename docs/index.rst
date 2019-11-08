@@ -5,11 +5,14 @@
 
 Welcome to molecool's documentation!
 =========================================================
+molecool is this thing.
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Table of Contents:
 
+   about
    getting_started
    api
 
